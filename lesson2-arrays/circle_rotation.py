@@ -2,7 +2,8 @@
 # print("this is a debug message")
 
 def solution(list, n):
-   
+    if (list == []):
+        return []
     rotated_list = list.copy()
     list_count = len(list)
 
